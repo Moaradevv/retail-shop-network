@@ -1,0 +1,18 @@
+! Shop-R1 - v1 basic shop configuration
+! Router: Cisco 2911
+! Network: 192.168.1.0/24 (static IPs, single LAN)
+
+enable
+configure terminal
+hostname Shop-R1
+
+! Gateway for the shop LAN
+interface GigabitEthernet0/0
+ ip address 192.168.1.1 255.255.255.0
+ no shutdown
+end
+
+write memory
+
+! Verify with:
+! show ip interface brief
