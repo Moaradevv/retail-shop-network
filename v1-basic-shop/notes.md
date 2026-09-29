@@ -43,6 +43,12 @@ From `POS-PC`, I pinged:
 - 192.168.1.21 (Office-PC2): 0% loss
 - 192.168.1.30 (Printer1): 0% loss
 
+Screenshots of the results:
+
+![Ping test 1](ping-test1.png)
+
+![Ping test 2](ping-test2.png)
+
 ## What I learned
 
 - How to choose cable types (straight-through for different device types)
